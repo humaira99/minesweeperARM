@@ -10,44 +10,5 @@ The following diagram shows the initial board display, and the grid reference sy
 The rows are identified by letters (case-insensitive) and the columns by numbers, allowing the user to enter a co-ordinate as ‘b1’ or ‘A4’.\
 The system should not accept incorrect co-ordinates, and should ask the user to re-enter valid coordinates.
 
-  1 2 3 4 5 6 7 8\
-A * * * * * * * *\
-B * * * * * * * *\
-C * * * * * * * *\
-D * * * * * * * *\
-E * * * * * * * *\
-F * * * * * * * *\
-G * * * * * * * *\
-H * * * * * * * *
-
-Enter square to reveal: \
-Revealed squares are shown thus (note the blank squares): \
-
-  1 2 3 4 5 6 7 8\
-A 1 M 1     1 M M\
-B 1 1 1     1 3 M\
-C             1 1\
-D 1 1 1          \
-E 1 M 1 1 1 1    \
-F 1 1 1 1 M 1    \
-G 1 1 2 2 2 1    \
-H 1 M 2 M 1      
-
-Enter square to reveal:\
-
-With mines being represented as an ‘M’:
-  1 2 3 4 5 6 7 8\
-A 1 * * * * 1 * M\
-B * * * * * * 3 *\
-C * * * *   * * *\
-D 1 1 * * * * * *\
-E * * * 1 1 * * *\
-F * 1 * 1 * * * *\
-G * * 2 * * * * *\
-H 1 * * * 1   * *
-
-You lose...
- 
-
 -----------------------
 Created: December 2017
